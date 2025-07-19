@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculate Tip</title>
+    <link rel="stylesheet" href="Tip.css">
+</head>
+
+<body>
+    <div class="tip-calculator-container">
+        <img class="tip-calculator-image" src="c:\Users\CSELAB\Pictures\image4.jpg" width="300px" height="200px">
+        <h1 class="tip-calculator-heading">TIP Calculator</h1>
+
+        <div class="flex-container">
+            <div class="input-group">
+                <p class="input-label">BILL AMOUNT</p>
+                <input type="text" class="user-input" id="billAmount">
+            </div>
+            <div class="input-group">
+                <p class="input-label">PERCENTAGE TIP</p>
+                <input type="text" class="user-input" id="percentageTip">
+            </div>
+            <div class="input-group">
+                <p class="input-label">TIP AMOUNT</p>
+                <input type="text" class="user-input" id="tipamount" readonly>
+            </div>
+            <div class="input-group">
+                <p class="input-label">TOTAL</p>
+                <input type="text" class="user-input" id="totalAmount" readonly>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="calculate-tip-button" onclick="calculateTip()">Calculate</button>
+            <p class="error-message" id="error-message"></p>
+        </div>
+    </div>
+
+    <script src="Tip.js">
+        
+    </script>
+</body>
+
+</html>

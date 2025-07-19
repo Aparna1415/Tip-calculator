@@ -1,0 +1,87 @@
+   body {
+       margin: 0;
+       font-family: Arial, sans-serif;
+       background-color: #f8f9fa;
+   }
+
+   .tip-calculator-container {
+       color: rgb(201, 105, 161);
+       max-width: 800px;
+       margin: 0 auto;
+       padding: 20px;
+       text-align: center;
+   }
+
+   .tip-calculator-image {
+       display: block;
+       margin: 0 auto;
+       width: 150px;
+   }
+
+   .tip-calculator-heading {
+       margin-top: 20px;
+       margin-bottom: 20px;
+       font-size: 28px;
+       color: #83236b;
+       font-family: cursive;
+   }
+
+   .flex-container {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+       justify-content: start;
+   }
+
+   .input-group {
+       flex: 1 1 45%;
+       display: flex;
+       flex-direction: column;
+       color: #c27613;
+       font-family: 'Courier New', Courier, monospace;
+   }
+
+   .input-label {
+       margin-bottom: 5px;
+       font-weight: bold;
+       color: #41053e;
+       font-family: Cambria, Cochin;
+   }
+
+   .user-input {
+       padding: 8px;
+       font-size: 16px;
+       border-radius: 4px;
+       border: 1px solid #ccc;
+   }
+
+   .calculate-tip-button {
+       margin-top: 30px;
+       padding: 15px 30px;
+       font-size: 16px;
+       background-color: #408792;
+       border: none;
+       color: rgb(255, 255, 255);
+       border-radius: 4px;
+       cursor: pointer;
+   }
+
+   .calculate-tip-button:hover {
+       background-color: #12626e;
+   }
+
+   .text-center {
+       text-align: center;
+   }
+
+   .error-message {
+       color: red;
+       margin-top: 10px;
+       font-weight: bold;
+   }
+
+   @media (max-width: 768px) {
+       .input-group {
+           flex: 1 1 100%;
+       }
+   }
